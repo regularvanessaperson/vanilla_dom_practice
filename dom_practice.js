@@ -7,3 +7,9 @@ console.log(welcome)
 
 const first = document.querySelectorAll(".list")
 console.log(first)
+//when you use querySelectorAll it finds all times mentioned and returns in array
+
+const listItem = document.querySelectorAll("li")
+// console.log(listItem[0].innerText)
+
+listItem[2].style.color = "purple"
