@@ -13,3 +13,5 @@ const listItem = document.querySelectorAll("li")
 // console.log(listItem[0].innerText)
 
 listItem[2].style.color = "purple"
+
+listItem[3].innerText = "Jamboree sandwich at the Jambo-ree"
