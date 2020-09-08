@@ -15,3 +15,12 @@ const listItem = document.querySelectorAll("li")
 listItem[2].style.color = "purple"
 
 listItem[3].innerText = "Jamboree sandwich at the Jambo-ree"
+
+const zoo = document.createElement('img')
+
+zoo.setAttribute("src", "https://www.dallasparks.org/ImageRepository/Document?documentID=971")
+
+const newImage = listItem[0].appendChild(zoo)
+
+newImage.style.height= "100px"
+
